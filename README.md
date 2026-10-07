@@ -93,13 +93,13 @@ GeoIP-инверсия нигде не используется.
 
 ```text
 GeoIP:
-https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geoip.dat
+https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geoip.dat
 
 Geosite:
-https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geosite.dat
+https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geosite.dat
 
 Профиль маршрутизации:
-https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
+https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
 ```
 
 ### Заголовок Happ — скопировать целиком
@@ -124,7 +124,7 @@ routing: happ://routing/onadd/eyJOYW1lIjoiQ2VudHJpY1ZQTiBTbWFydCBSVSIsIkdsb2JhbF
 удалённому JSON и самостоятельно проверяет его обновления.
 
 ```text
-autorouting: incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
+autorouting: incy://autorouting/onadd/https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
 ```
 
 Готовая строка также лежит в
@@ -142,7 +142,7 @@ autorouting: incy://autorouting/onadd/https://raw.githubusercontent.com/centricv
 - Incy: откройте эту ссылку:
 
 ```text
-incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
+incy://autorouting/onadd/https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
 ```
 
 ## 🌊 Встройка в Remnawave
@@ -161,7 +161,7 @@ incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN
 ```json
 {
   "routing": "happ://routing/onadd/eyJOYW1lIjoiQ2VudHJpY1ZQTiBTbWFydCBSVSIsIkdsb2JhbFByb3h5IjoidHJ1ZSIsInVzZUNodW5rRmlsZXMiOmZhbHNlLCJMYXN0VXBkYXRlZCI6IjE3OTEzOTcyNjYiLCJSb3V0ZU9yZGVyIjoiYmxvY2stcHJveHktZGlyZWN0IiwiRGlyZWN0U2l0ZXMiOlsiZ2Vvc2l0ZTpwcml2YXRlIiwiZ2Vvc2l0ZTpydS1jb3JlIiwiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSJdLCJEaXJlY3RJcCI6WyJnZW9pcDpwcml2YXRlIiwiZ2VvaXA6cnUiXSwiUHJveHlTaXRlcyI6WyJnZW9zaXRlOnRlbGVncmFtIiwiZ2Vvc2l0ZTpnaXRodWIiLCJnZW9zaXRlOmRpc2NvcmQiLCJnZW9zaXRlOndoYXRzYXBwIiwiZ2Vvc2l0ZTpiYW5uZWQtcnUiLCJnZW9zaXRlOmhvc3RpbmciLCJnZW9zaXRlOnlvdXR1YmUiLCJnZW9zaXRlOmFpIiwiZ2Vvc2l0ZTpjcnlwdG8iLCJnZW9zaXRlOnR3aXRjaCIsImdlb3NpdGU6cGludGVyZXN0IiwiZ2Vvc2l0ZTpnb29nbGUtcGxheSIsImdlb3NpdGU6Y2F0ZWdvcnktZ2VvYmxvY2stcnUiXSwiUHJveHlJcCI6WyJnZW9pcDp0ZWxlZ3JhbSIsImdlb2lwOmJsb2NrZWQtcnUiXSwiQmxvY2tTaXRlcyI6WyJnZW9zaXRlOmNhdGVnb3J5LWFkcyJdLCJCbG9ja0lwIjpbXSwiRG9tYWluU3RyYXRlZ3kiOiJJUElmTm9uTWF0Y2giLCJHZW9pcHVybCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jZW50cmljdnBuL0NlbnRyaWNWUE4tR0VPL21haW4vZ2VvaXAuZGF0IiwiR2Vvc2l0ZXVybCI6Imh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jZW50cmljdnBuL0NlbnRyaWNWUE4tR0VPL21haW4vZ2Vvc2l0ZS5kYXQifQ==",
-  "autorouting": "incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json"
+  "autorouting": "incy://autorouting/onadd/https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json"
 }
 ```
 
@@ -206,7 +206,7 @@ incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN
 ```json
 {
   "key": "autorouting",
-  "value": "incy://autorouting/onadd/https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json"
+  "value": "incy://autorouting/onadd/https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json"
 }
 ```
 
@@ -239,9 +239,9 @@ autorouting: incy://autorouting/onadd/https://raw.githubusercontent.com/...
 Проверьте и прямую доступность файлов:
 
 ```bash
-curl -fIL https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geoip.dat
-curl -fIL https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geosite.dat
-curl -fL https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
+curl -fIL https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geoip.dat
+curl -fIL https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geosite.dat
+curl -fL https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
 ```
 
 ### Как проходит обновление
@@ -833,8 +833,8 @@ iOS/iPhone, macOS и Linux.
 
 ### Где скачать geosite.dat и geoip.dat для Xray/V2Ray?
 
-- [Скачать geosite.dat](https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geosite.dat)
-- [Скачать geoip.dat](https://raw.githubusercontent.com/centricvpn/CentricVPN-GEO/main/geoip.dat)
+- [Скачать geosite.dat](https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geosite.dat)
+- [Скачать geoip.dat](https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/geoip.dat)
 
 Это прямые GitHub Raw-ссылки: их можно вставить в Happ, Incy, Xray,
 V2RayNG, V2RayN или систему обновления своего VPN-сервиса.
