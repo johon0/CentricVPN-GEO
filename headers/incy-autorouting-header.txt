@@ -1,0 +1,1 @@
+autorouting: incy://autorouting/onadd/https://raw.githubusercontent.com/johon0/CentricVPN-GEO/main/profiles/centricvpn-smart-ru.json
